@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div data-templateId="317d3c46-ac3a-4f6c-a54a-66e6299cff12" class="prerender" data-bind="foreach: items">
+  <div class="data" data-bind="text: $data">
+  </div>
+</div>
+<div class="testRaw" data-bind="text: template"></div>
+<div data-bind="template: 'testTemplate'"></div>
+<script class="html" type="text/html" id="testTemplate">
+  <div class="test" data-bind="text: template"></div>
+</script>
+</body>
+</html>

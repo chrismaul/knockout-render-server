@@ -1,0 +1,16 @@
+{
+  "name": "knockout-render-server",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "knockoutjs": "*",
+    "jquery": "*",
+    "underscore":"*",
+    "socket.io":"*"
+  }
+
+}
